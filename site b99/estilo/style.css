@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'bebas noue';
+    src: url(fonte/BebasNeue-Regular.ttf) format('truetype');
+}
+
+:root{
+    
+    --cor1: #2b3240;
+    --cor2: #3f8ebf;
+    --cor3: #593202;
+    --cor4: #f29829;
+    --cor5: #d99d55;
+    --cor6: #f2f2f2;
+    --cor7: #080c13;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: "bebas neue", serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    margin: 0px;
+    background-color: var(--cor1);
+    height: 1000px;
+}
+
+header{
+    background-color: var(--cor4);
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+header p{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'bebanoves';
+}
+
+nav a{
+    background-color: var(--cor3);
+    padding: 3px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    border-radius: 4px ;
+}
+
+nav > a:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 10px;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    color: var(--cor6);
+}
+
+main{
+color: var(--cor6);
+    padding: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+h1.titulo{
+    padding: 5px;
+    background-color: var(--cor2);
+    border-radius: 10px 10px 0px 0px;
+}
+
+main h2{
+    padding: 10px;
+}
+
+main p{
+    background-color: var(--cor5);
+    padding: 0px 10px 10px 10px;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
