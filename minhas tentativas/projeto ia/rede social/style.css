@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f2f5; /* Fundo levemente acinzentado, comum em redes sociais */
+    color: #333;
+    display: flex; /* Para centralizar o conteúdo na tela */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Para garantir que o conteúdo centralize verticalmente mesmo se for pequeno */
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Evita que a sombra vaze */
+    display: flex;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.perfil {
+    width: 300px;
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-right: 1px solid #eee; /* Linha divisória entre perfil e conteúdo */
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    object-fit: cover; /* Recorta a imagem para preencher o círculo sem distorcer */
+    margin-bottom: 1rem;
+}
+
+.links-sociais {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.links-sociais img {
+    width: 30px;
+    height: 30px;
+    margin: 0 0.5rem;
+}
+
+.conteudo {
+    padding: 2rem;
+    flex: 1; /* Ocupa o espaço restante */
+}
+
+.publicacao {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
